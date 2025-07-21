@@ -10,6 +10,7 @@ import 'story/story_page.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
+  
   // タイムゾーンデータの初期化
   tz.initializeTimeZones();
   
