@@ -336,6 +336,8 @@ class _CriticalThinkingHomePageState extends State<CriticalThinkingHomePage> {
                       label: Text('ストーリーモードを開始'),
                       style: ElevatedButton.styleFrom(
                         padding: EdgeInsets.symmetric(vertical: 16),
+                        backgroundColor: Colors.blue, // ボタンの背景色を明示的に設定
+                        foregroundColor: Colors.white, // ボタンの文字色を明示的に設定
                       ),
                     ),
                   ),
